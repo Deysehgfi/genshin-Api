@@ -5,6 +5,9 @@
     --yellow:#E9E3AF;
 
 }
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +49,7 @@ a{
 /*corpo-----------------------------------------------------------------------------------------*/
 .section-1{
     background-color: var(--gray-blue);
-margin-top: 50px;
+    margin-top: 50px;
 
    
 }
@@ -65,3 +68,81 @@ footer{
 h3{
     color:var(--yellow);
 }
+
+/*login----------------------------------------------------------------------------------------------------------*/
+.formulario{
+    background-color: #202332;
+    height: 500px;
+   width: 350px;
+   border-radius: 20px;
+   padding: 20px;
+  
+
+ 
+}
+
+.info-formulario{
+    border-radius: 20px;
+    border: solid white;
+    
+}
+
+.background{
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+
+.corpo{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+input{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px 50px;
+    align-items: center;
+    margin-block-end: 15px;
+    font-family: "blinker", sans-serif;
+  }
+  
+  label{ 
+    padding: 25px;
+    font-size: 20px;
+   font-family: "blinker",sans-serif;
+    color: var(--blue-ligth);
+    margin-top:5px;
+  }
+
+
+  button{
+   background-color:var(--yellow);
+   color: var(--blue-shadow);
+   font-family: "blinker", sans-serif;
+   border-radius: 55px;
+   font-size: 30px;
+   border: 0;
+   margin-top: 30px;
+   padding: 15px 50px;
+   
+}
+
+h1{
+    color: var(--yellow);
+    font-size: 50px;
+    font-family: "blinker", sans-serif;
+    text-align: center;
+    margin-block-end: 50px;
+
+}
+
+
+
