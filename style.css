@@ -63,6 +63,7 @@ footer{
     background-color: var(--blue-shadow);
     text-align: center;
     padding: 50px;
+   
 }
 
 h3{
@@ -89,7 +90,7 @@ h3{
 
 .background{
     background-image: url(./img/background.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: 100%;
 
     
@@ -135,9 +136,9 @@ input{
    
 }
 
-h1{
+h5{
     color: var(--yellow);
-    font-size: 50px;
+    font-size: 32px;
     font-family: "blinker", sans-serif;
     text-align: center;
     margin-block-end: 50px;
