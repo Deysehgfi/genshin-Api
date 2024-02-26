@@ -47,12 +47,49 @@ a{
  
 
 /*corpo-----------------------------------------------------------------------------------------*/
+
+.img-home{
+    height:380px;
+    width: 100%;
+}
+
 .section-1{
     background-color: var(--gray-blue);
     margin-top: 50px;
 
+
    
 }
+
+.personagem-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-personagem{
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+
+.name-person{
+    color: var(--yellow);
+    font-size: 40px;
+    font-family: "blinker",sans-serif;
+}
+
+.personagem-caixa{
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+
 
 
 
@@ -77,13 +114,14 @@ h3{
    width: 350px;
    border-radius: 20px;
    padding: 20px;
+   text-align: center;
   
 
  
 }
 
 .info-formulario{
-    border-radius: 20px;
+    border-radius: 50px;
     border: solid white;
     
 }
@@ -98,6 +136,7 @@ h3{
 
 .corpo{
     margin-top: 150px;
+    margin-block-end:150px ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +171,7 @@ input{
    font-size: 30px;
    border: 0;
    margin-top: 30px;
-   padding: 15px 50px;
+   padding: 9px 90px;
    
 }
 
@@ -144,6 +183,8 @@ h5{
     margin-block-end: 50px;
 
 }
+
+
 
 
 
