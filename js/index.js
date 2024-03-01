@@ -60,6 +60,8 @@ document.addEventListener('DOMContentLoaded' , ()=>{
          <img class="img-personagem" src= "./img/foto${index}.jpg">
         <div> 
             <h3 class="name-person">${item.name}</h3>
+            
+
          </div> 
     </div>`;
   divPersonagens.addEventListener('click',()=>{
