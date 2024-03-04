@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded' , ()=>{
 
   .then((data)=>{
         console.log(data.results[0].name)
-        renderizarPersonagens(data)
+        ListarPersonagens(data)
      })     .catch((err)=>console.log(err))
  })
 
@@ -77,13 +77,13 @@ window.location.href= `./person.html?index=${index}`}
 
 
  
- function renderizarPersonagens(items){
+ function ListarPersonagens(items){
      const container = document.getElementById('personagem-container')
    items.results.forEach((item, index)=>{
     const divPersonagens = document.createElement('div')
     divPersonagens.innerHTML= `
     <div class = "personagem-caixa">
-         <img class="img-personagem" src= "./img/foto${index}.jpg">
+         <img class="img-person" src= "./img/foto${index}.jpg">
         <div> 
             <h3 class="name-person">${item.name}</h3>
             

@@ -68,6 +68,11 @@ a{
 
 .img-personagem{
     border-radius: 30px;
+    width:30%;
+}
+
+.img-person{
+    border-radius: 30px;
     width: 300px;
     height: 300px;
     padding: 15px;
@@ -78,8 +83,8 @@ a{
     border: solid white 2px;
     border-radius: 20px;
     background-color: #4A4D5C;
-    /* display: flex;
-    flex-direction: row; */
+   /* display: flex;
+    flex-direction: row;  */
     padding: 50px;
     margin: 50px;
 }
@@ -114,6 +119,11 @@ h4{
     padding: 15px;
     margin-top: 15px;
    
+}
+
+.cadastro{
+    color: var(--yellow);
+    font-family:"blinker",sans-serif ;
 }
 
 
@@ -157,6 +167,7 @@ h3{
 .background{
     background-image: url(./img/background.png);
    background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
 
