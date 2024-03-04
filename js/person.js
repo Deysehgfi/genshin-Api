@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded' , ()=>{
     .then((data)=>{
         console.log(data)
 
-      personagem(data)})
-    // .catch((err)=>console.error(err))})
+      personagemDados(data)})
+  
 
     
-    function personagem(item){
+    function personagemDados(item){
         const personagemImg = document.querySelector('.img-personagem')
         const nome = document.querySelector('.nome')
         const tipoModelo = document.querySelector('.tipo_modelo')
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded' , ()=>{
     
     personagemImg.src = `./img/foto${paramIndex}.jpg` 
 
-   nome.innerHTML =`${item.result.name}`
+    nome.innerHTML =`${item.result.name}`
     tipoModelo.innerHTML =`TIPO DE MODELO: ${item.result.model_type}`
     raridade.innerHTML =`RARIDADE: ${item.result.rarity}`
     arma.innerHTML =`ARMA: ${item.result.weapon}`
@@ -43,12 +43,4 @@ document.addEventListener('DOMContentLoaded' , ()=>{
     visao.innerHTML =`VISÃO: ${item.result.vision}`
     aniversario.innerHTML =`ANIVERSÁRIO: ${item.result.birthday}`
     regiao.innerHTML =`REGIÃO: ${item.result.region}`
-    
-       
-    
     }})
-
-
-
-
-
