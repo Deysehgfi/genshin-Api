@@ -61,11 +61,38 @@ a{
    
 }
 
-.personagem-container{
+/* .personagem-container{
     display: flex;
     flex-direction: column;
+  ;
+
+} */
+
+
+.personagem-container{
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+   
 }
 
+.personagem .personagem-caixa{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+
+.personagem .personagem-caixa img{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+
+}
 .img-personagem{
     border-radius: 30px;
     width:30%;
@@ -73,9 +100,9 @@ a{
 
 .img-person{
     border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    padding: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
 }
 
 
@@ -114,8 +141,7 @@ h4{
 }
 
 .personagem-caixa{
-    border: solid white 2px;
-    border-radius: 15px;
+ 
     padding: 15px;
     margin-top: 15px;
    
